@@ -1,5 +1,5 @@
 CC      ?= cc
-CFLAGS  ?= -std=c11 -D_POSIX_C_SOURCE=200809L -Wall -Wextra -O2 -pthread -Icommon
+CFLAGS  ?= -std=c11 -D_POSIX_C_SOURCE=200809L -Wall -Wextra -Wno-unused-function -O2 -pthread -Icommon
 LDFLAGS ?= -pthread
 
 ifeq ($(STATIC),1)
