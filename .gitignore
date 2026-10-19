@@ -1,0 +1,4 @@
+client/client
+server/server
+*.o
+.DS_Store
